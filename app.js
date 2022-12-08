@@ -35,10 +35,18 @@
 // console.log(`Free Memory: ${freeMemory}`);
 
 
-// ********** FileSystem Module **********
+// // ********** FileSystem Module **********
 
-const fs = require('fs');
+// const fs = require('fs');
 
-const files = fs.readdirSync('./');
+// // const files = fs.readdirSync('./');
+// // console.log(files);
 
-console.log(files);
+// // callBack in Node
+// fs.readdir('./', function(err, files){
+//  if(err){
+//     console.log('Error', err);
+//  }
+// else
+// console.log('Result:' , files);
+// });
